@@ -1,40 +1,92 @@
-html,
-body,
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 100%;
+html{
+    background-color: #efd7e5;
 }
 
-body {
-    background-color: #e4a1c1;
-}
+#form{
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 12px;
+    align-items: center;
+    }
 
-h1 {
-    font-size: 300%;
+h1{
     text-align: center;
-    margin-top: 1em;
-    color: rgb(62,92,62);
+    font-family: 'Lobster', sans-serif;
+    font-size: 70px;
+    color: #e992a4;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.box1,
-.box2 {
-    background-color: #f5d2dc;
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.submit-button {
+    background-color:#e992a4;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.submit-button:hover {
+    background-color: #dddae8;
+}
+
+.remove{
+    margin: 1.1rem;
+    background-color:#e992a4;
+    font-size: 15px;
+    align-items: center;
+    width: 15%;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.remove:hover{
+    background-color: #dddae8;
+}
+
+.card {
+    background-color: #FECBD4;
     padding: 50px;
     margin: 10px;
     width: 500px;
     height: 500px;
-    font-size: 200%;
+    font-size: 1000%;
     border-radius: 10%;
-    border: #f5d2dc solid 10px;
+    border: #FEC0CB solid 10px;
     position: relative;
 }
 
-img {
-    width: 20vw;
-    height: 30vw:
-    position: absolute;
-    bottom: 10%;
-    right: 10%
+.caption-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.title-name {
+    font-size: 30px;
+    margin: 1.3rem 0;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-image {
+    max-width: 60%;
+    margin: auto;
+    padding: 5px 15px 5px 15px;
+} 
+
+.form-inputs {
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: #FFB5C2 solid 5px;
+    background-color: #FCEDF0;
+    color: #7D5A5A;    
 }

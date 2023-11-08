@@ -2,35 +2,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>crime percentage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-    <h1>How Likely Are You To Commit a Crime</h1>
-    <h2>hi</h2>
-   
+    <h1>Create Your Own Mugshot</h1>
+    
     <section class="parent">
-        <div class="box1">
-            <p class="question">How likely are you to commit a crime?</p>
-
-            <form id="form">
-                <div class="formstuff">
-                    <label for="urname">Your name:</label>
-                    <input type="text" id="urname" required />
-                </div>
-                
-                <div class="formstuff">
-                    <input type="submit" id="btn" value="Calculate Percentage">
-                </div>
-            </form>
-
+    <div class="card" id="box">
+    <form action="" id="form">
+        
+        <div class="form-inputs">
+        <label for="titleName">Name:</label>
+        <input type="text" name="titleName" id="title-name"/>
         </div>
 
-        <div class="box2">
-            <img id="greeting" src="https://media1.tenor.com/images/c127738a9589c3695a214c39c76bad9c/tenor.gif?itemid=9729852" alt="crime don't care">
+        <div class="form-inputs">
+        <label for="caption">Reason:</label>
+        <input type="text" name="image" id="caption-text"/>
         </div>
 
+        <div class="form-inputs">
+        <label for="imageLink">Image Link:</label>
+        <input type="text" name="image" id="image-link"/>
+        </div>
+
+        <div class="submit">
+        <input type="submit" value="Create" class="submit-button">
+
+    </form>
+</div>    
+    </div>
+    </section>
         
 
     <script src="dom.js"></script>
